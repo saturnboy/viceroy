@@ -1,0 +1,347 @@
+/*
+Theme Name: Viceroy
+Theme URI: http://saturnboy.com/viceroy
+Description: One-column theme with a dash of pink. Minimal and manly.
+Version: 1.0
+Author: Justin Shacklette
+Author URI: http://saturnboy.com
+Tags: pink, one-column, fixed-width
+License: GNU General Public License (GPL) version 3
+*/
+
+/*** wordpress defaults ***/
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+/*** blueprint override -- Viceroy only has 16 columns ***/
+.container {
+width:630px;
+}
+
+/*** links ***/
+a {
+color:#f29;
+text-decoration:none;
+}
+a:hover {
+color:#f29;
+text-decoration:underline;
+}
+
+/*** header ***/
+#head {
+background-color:#110;
+padding:30px 0 10px 0;
+border-top:3px solid #f29;
+}
+#head h1 {
+color:#f8f8f8;
+padding-left:30px;
+}
+
+
+/*** nav bar ***/
+#navbar {
+background-color:#665;
+padding:12px 0 14px 0;
+border-top:1px solid #f8f8f8;
+}
+
+ul#nav, ul#subnav {
+list-style:none;
+margin:0;
+padding-left:10px;
+white-space:nowrap;
+}
+#nav li, #subnav li {
+list-style-type:none;
+display:inline;
+padding:0 10px;
+}
+#nav li a {
+color:#f8f8f8;
+font-size:125%;
+font-weight:bold;
+padding:2px 10px;
+}
+#nav li a:hover {
+text-decoration:none;
+border-top:4px solid #f29;
+}
+#nav li.current_page_item a {
+color:#110;
+}
+#nav li.current_page_item a:hover {
+border-top:4px solid #665;
+}
+
+
+/*** subnav bar ***/
+#subnavbar {
+background-color:#bba;
+padding:4px 0;
+border-top:1px solid #f8f8f8;
+}
+#subnav li a {
+color:#f8f8f8;
+padding:2px 6px;
+}
+#subnav li a:hover {
+text-decoration:none;
+color:#f29;
+}
+
+
+/*** content ***/
+#content {
+padding:10px 0 4px 0;
+}
+
+
+/*** post ***/
+.post, div.page {
+padding:16px 0 2px 0;
+border-top:1px dotted #665;
+}
+
+.firstpost {
+padding-top:0;
+border-top:none;
+}
+
+.ptitle h2 {
+color:#f29;
+}
+.ptitle h2 a {
+color:#f29;
+padding-bottom:2px;
+}
+
+.ptitle h2 a:hover {
+text-decoration:none;
+border-bottom:2px solid #f29;
+padding-bottom:2px;
+}
+
+.pdate {
+color:#665;
+font-size:90%;
+padding-top:6px;
+text-align:right;
+}
+
+.pbody {
+color:#110;
+}
+
+.pcomment a {
+color:#f29;
+font-size:90%;
+}
+
+.ptag {
+color:#665;
+font-size:90%;
+text-align:right;
+}
+
+.ptag a {
+color:#f29;
+}
+
+
+/*** comments ***/
+#commentsbar h3, #respond h3 {
+color:#f29;
+}
+
+#commentform fieldset {
+margin:0;
+padding:0;
+border:none;
+}
+#commentform label {
+color:#665;
+}
+#commentform textarea {
+width:500px;
+height:64px;
+}
+
+.comment, .trackback, .pingback {
+padding-top:2px;
+border-top:1px dotted #665;
+}
+.firstcomment {
+border:none;
+}
+
+.comment-idx {
+font-size:250%;
+font-weight:bold;
+color:#665;
+}
+.comment-author p {
+margin:0;
+padding:0;
+color:#665;
+font-size:90%;
+}
+.comment-date {
+color:#665;
+font-size:90%;
+text-align:right;
+}
+
+
+/*** bottom bar ***/
+#bottombar {
+width:590px;
+background-color:#665;
+padding:20px;
+}
+#bottombar h3 {
+color:#110;
+}
+#bottombar ul {
+list-style:none;
+margin:0;
+}
+#bottombar a {
+color:#f8f8f8;
+}
+#bottombar a:hover {
+border-bottom:2px solid #f29;
+text-decoration:none;
+}
+
+
+/*** search ***/
+#searchbar {
+background-color:#bba;
+padding:4px 0;
+border-bottom:1px solid #f8f8f8;
+text-align:center;
+}
+
+#searchbar fieldset {
+margin:0;
+padding:0;
+border:none;
+}
+
+#searchbar input#s {
+width:200px;
+background-color:#f8f8f8;
+color:#110;
+font-size:90%;
+padding:3px 5px;
+border:1px solid #998;
+}
+
+#searchbar input#searchbtn {
+cursor:pointer;
+background-color:#665;
+color:#f8f8f8;
+font-size:11px;
+font-weight:bold;
+padding:2px 20px;
+border:1px solid #443;
+}
+
+/*** footer ***/
+#foot {
+background-color:#110;
+color:#665;
+font-size:90%;
+padding:12px 0;
+border-bottom:3px solid #f29;
+border-top:1px solid #f8f8f8;
+}
+#footl p {
+margin:0;
+padding:0 0 0 20px;
+text-align:left;
+}
+#footr p {
+margin:0;
+padding:0 20px 0 0;
+text-align:right;
+}
+
+/*** gallery page template ***/
+#content-gallery2, #content-gallery4 {
+padding:10px 0 4px 0;
+}
+#content-gallery3 {
+padding:10px 20px 4px 20px;
+}
+
+.gallery3 .ptitle h2 {
+font-size:165%;
+}
+.gallery4 .ptitle h2 {
+font-size:150%;
+}
+
+.gallery {
+border-top:none;
+padding:6px 0 0 0;
+}
+.gallery .ptitle h2 {
+padding:0;
+margin:0;
+}
+.gallery .ptitle h2 a {
+padding:0;
+}
+.gallery .ptitle h2 a:hover {
+padding:0;
+}
+.gallery .pdate {
+padding:0 0 6px 0;
+text-align:left;
+}
+
+/*** crazy webkit hack (make safari & chrome play nice) ***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input#searchbtn {padding:3px 20px;}
+}

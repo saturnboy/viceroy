@@ -1,0 +1,9 @@
+h1. Viceroy
+
+Viceroy is a one-column "Wordpress":http://wordpress.org/ theme with a dash of pink.  All code is GPL v3.
+
+h3. Links
+
+* "Viceroy website":http://saturnboy.com/viceroy/
+* "GPL v3":http://www.gnu.org/licenses/gpl-3.0.txt
+* "Blueprint CSS":http://blueprintcss.org/
