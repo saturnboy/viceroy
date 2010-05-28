@@ -69,12 +69,15 @@ text-decoration:underline;
 /*** header ***/
 #head {
 background-color:#110;
-padding:30px 0 10px 0;
+padding:20px 0 20px 0;
 border-top:3px solid #f29;
 }
 #head h1 {
+font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
+font-size:40px;
 color:#f8f8f8;
 padding-left:30px;
+margin-bottom:0;
 }
 
 
@@ -148,17 +151,20 @@ border-top:none;
 }
 
 .ptitle h2 {
+font-family: 'OFL Sorts Mill Goudy TT', arial, serif;
+font-size:26px;
 color:#f29;
+margin-bottom:8px;
 }
 .ptitle h2 a {
 color:#f29;
-padding-bottom:2px;
+padding-bottom:0;
 }
 
 .ptitle h2 a:hover {
 text-decoration:none;
 border-bottom:2px solid #f29;
-padding-bottom:2px;
+padding-bottom:0;
 }
 
 .pdate {
@@ -170,6 +176,11 @@ text-align:right;
 
 .pbody {
 color:#110;
+}
+
+.pbody h3 {
+color:#665;
+margin-bottom:8px;
 }
 
 .pcomment a {

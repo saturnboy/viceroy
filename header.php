@@ -4,6 +4,8 @@
 <meta http-equiv="Content-type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 <title><?php wp_title('-',true,'right'); ?><?php bloginfo('name'); ?></title>
 
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT">
+
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/blueprint/screen.css" type="text/css" media="screen, projection" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/blueprint/print.css" type="text/css" media="print" />
 <!--[if lt IE 8]><link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
